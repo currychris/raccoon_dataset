@@ -17,7 +17,7 @@ import pandas as pd
 import tensorflow.compat.v1 as tf
 
 from PIL import Image
-import dataset.tfrecord_util import dataset_util
+import dataset.tfrecord_util as dataset_util
 from collections import namedtuple, OrderedDict
 
 flags = tf.app.flags
